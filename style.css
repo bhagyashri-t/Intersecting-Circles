@@ -1,0 +1,48 @@
+
+header .canvas {
+	display: inline-block;
+	vertical-align: top;
+
+}
+header {
+	margin: 2%;
+	height: 20%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.canvas {
+	text-align: center;
+	margin: 2%;
+	margin-bottom: 5px;
+	cursor: default;
+}
+
+header h2 {
+	color: #9900CC;
+	font: normal 500px 30px;
+}
+header button {
+	margin: 1%;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: none;
+	border:none;
+	outline: none;
+	font-size: 20px;
+	color: #FFFFFF ;
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+header button:hover {
+	box-shadow: 0px 0px 5px 2px #A0A0A0;
+}
+#colorizeBtn {
+	background-color: #FF0033;	
+}
+
+#clearBtn {
+	background-color: #6cb33f;
+}
